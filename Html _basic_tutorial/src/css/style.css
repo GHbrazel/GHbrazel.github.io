@@ -1,0 +1,87 @@
+/*
+*   This is the style of the webpage, including all kinds of colors and containers
+*
+*   Creator: Nik
+*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+/*************************************************************************************************************/
+/*__________________________________________Classes__________________________________________________________*/
+/*************************************************************************************************************/
+.left_align {
+    float: left;
+}
+.right_align {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+
+/*overwritten components*/
+body{
+    background: #FFF3DB;
+    font-family: 'Turret Road', cursive;
+    color: #703E3B;
+}
+
+h1{
+    color: #C84648;
+}
+
+h2 {
+    color: #C84648;
+}
+
+a{
+    color: #C84648;
+    text-decoration: none;
+}
+
+/*************************************************************************************************************/
+/*__________________________________________Container________________________________________________________*/
+/*************************************************************************************************************/
+#container {
+    background: #FFF3DB;
+    width:1500px;
+}
+
+#introduction_header {
+     background: #E7E4D5;
+     width: 275px;
+     padding: 5px;
+     border-bottom-right-radius: 20px;
+}
+
+#vid_frame {
+    padding: 100px 100px 100px 100px/*375px*/;
+}
+
+#table_right {
+    width: 300px;
+    height:1000px;
+    background: #E7E4D5;
+    padding: 50px;
+}
+
+#commercial_frame {
+    width: 100px;
+    padding:50px;
+}
+
+#main {
+    background: #FFF3DB;
+    margin: 50px;
+    width: 700px;
+}
+
+#footer {
+    background: #D3C8B4;
+    padding: 10px;
+    border-top-right-radius: 20px;
+}
